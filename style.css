@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-image: url("/images/spbg.png");
+    background-image: url("images/spbg.png");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@
 
 
       @media (min-width: 769px){
-        background-image: url("/images/bg.png");
+        background-image: url("images/bg.png");
       }
 
 
@@ -153,7 +153,7 @@
 
 
 .footer {
-      background-image: url("/images/spbg2.png");
+      background-image: url("images/spbg2.png");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,7 +163,7 @@
 
 
       @media (min-width: 769px){
-        background-image: url("/images/bg2.png");
+        background-image: url("images/bg2.png");
       }
 
 
@@ -191,7 +191,7 @@
 
     .self-introduction::before {
         content: '';
-        background-image: url("/images/tape.png");
+        background-image: url("images/tape.png");
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
