@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+ 
+.body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.header {
+    background-image: url("/images/spbg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+
+
+      @media (min-width: 769px){
+        background-image: url("/images/bg.png");
+      }
+
+
+    
+}
+.header-logo {
+    width: 290px;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.header-img {
+    width: 100%;
+}
+
+.introduction {
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: #FF9A00;
+    position: absolute;
+    top: 420px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+}
+
+
+.section1{
+    background-color: #FF7B6D;
+}
+
+.h1 {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.carousel {
+    overflow-x: scroll;
+    display: flex;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+
+.item {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+.item + .item {
+    margin-left: 30px;
+}
+
+.page-bg {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.page-illust {
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: absolute;
+    inset: 0;
+    margin-top: 20px;
+}
+
+.page-text {
+    text-align: center;
+    font-size: 18px;
+    color: #FF7B6D;
+    margin: 0 auto;
+    position: absolute;
+    inset: 0;
+    margin-top: 340px;
+}
+
+
+
+.section-text {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFF;
+
+   
+}
+
+.section-header {
+    height: 158px;
+}
+
+
+.while {
+    /* position: center top;
+    repeat: no-repeat;
+    size: cover; */
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.section2{
+    background-color: #00B4EA;
+}
+
+
+
+
+
+
+
+.section3{
+    background-color: #65D553;
+}
+
+
+
+
+
+
+
+
+.footer {
+      background-image: url("/images/spbg2.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+
+
+      @media (min-width: 769px){
+        background-image: url("/images/bg2.png");
+      }
+
+
+    }
+
+
+    .self-introduction {
+        background-color: #FF9A00;
+        border-radius: 5px;
+        position: relative;
+        top: 200px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 80%;
+        height: 400px;
+        
+
+        @media (min-width: 769px){
+            width: 700px;
+            height: auto;
+          }
+
+    }
+
+    .self-introduction::before {
+        content: '';
+        background-image: url("/images/tape.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 130px;
+        height: 140px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: -75px;
+    }
+
+    
+    .tape {
+        width: 100px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: -60px;
+    }
+
+.footer-section {
+    display: flex;
+    padding: 120px 20px 120px 67px;
+}
+
+    .self-portrait {
+        width: 150px;
+        border-radius: 5px;
+    }
+
+
+    .self-introduction-text {
+        margin-left: 20px;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 18px;
+        color: #FFFF;
+        margin-bottom: 10px;
+    }
+
+    .detail {
+        text-align: center;
+        font-size: 18px;
+        color: #FFFF;
+    }
+
+
+    .copyright {
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        color: #FF9A00;
+        position: absolute;
+        bottom: 12px; 
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        
+    }
+    
