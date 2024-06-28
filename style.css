@@ -16,12 +16,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 699px;
     position: relative;
 
 
     @media (min-width: 769px) {
         background-image: url("images/bg.png");
+        height: 682px;
+    }
+}
+
+.bg-top {
+    background-image: url("images/spbg-top.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 79px;
+
+    @media (min-width: 769px){
+        background-image: url("images/bg-top.png");
+        height: 77px;
     }
 }
 
@@ -226,7 +241,7 @@ body {
 
 .self-introduction::before {
     content: '';
-    background-image: url("images/tape.png");
+    background-image: url("images/tape_2.png");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
